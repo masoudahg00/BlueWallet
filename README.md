@@ -45,7 +45,42 @@ npm install
 
 Please make sure that your console is running the most stable versions of npm and node (even-numbered versions).
 
-* To run on Android:
+* To run on Android:Request Preview
+{
+  "method": "GET",
+  "url": "https://rest.cryptoapis.io/addresses-latest/evm/ethereum/mainnet/0x28c6c06298d514db089934071355e5743bf21d60/balance",
+  "ipAddress": "10.33.0.58",
+  "parameters": {
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, compress, deflate, br",
+      "host": "rest.cryptoapis.io",
+      "user-agent": "axios/1.7.2",
+      "x-api-key": "4cf37edb8c3805a8854f82522c8482ba1418491f",
+      "x-api-version": "2024-12-12",
+      "x-b3-parentspanid": "1558dbb4ec6a40d9",
+      "x-b3-sampled": "0",
+      "x-b3-spanid": "9985913392e3797c",
+      "x-b3-traceid": "77ca038f6c012e4c1558dbb4ec6a40d9",
+      "x-envoy-attempt-count": "1",
+      "x-envoy-internal": "true",
+      "x-forwarded-client-cert": "By=spiffe://cluster.local/ns/cryptoapis-gateway/sa/default;Hash=c35143c5f94422f6954d8e882ad0bbd026f8c39c9067de1c1c830174ecd3d4a5;Subject=\"\";URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account",
+      "x-forwarded-for": "10.33.0.58",
+      "x-forwarded-proto": "https",
+      "x-request-id": "1d39d90f-a3e6-4ce3-98f1-202e35d206ab"
+    },
+    "path": {
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "blockchain": "ethereumm",
+      "network": "mainnet"
+    },
+m    "query": {},
+    "body": {}
+  },
+  "apiKey": "4cf37edb8c3805a8854f82522c8482ba1418491f",
+  "routeId": "671ba92859888860dfebe698",
+  "methodId": null
+}/@masoudahg00
 
 You will now need to either connect an Android device to your computer or run an emulated Android device using AVD Manager which comes shipped with Android Studio. To run an emulator using AVD Manager:
 
@@ -57,7 +92,42 @@ You will now need to either connect an Android device to your computer or run an
 5. Click on "Create Virtual Device..." and go through the steps to create a virtual device
 6. Launch your newly created virtual device by clicking the `Play` button under `Actions` column
 
-Once you connected an Android device or launched an emulator, run this:
+Once you connected an Android device or launched an emulator, run this:Request Preview
+{
+  "method": "GET",
+  "url": "https://rest.cryptoapis.io/addresses-latest/evm/ethereum/mainnet/0x28c6c06298d514db089934071355e5743bf21d60/balance",
+  "ipAddress": "10.33.0.58",
+  "parameters": {
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, compress, deflate, br",
+      "host": "rest.cryptoapis.io",
+      "user-agent": "axios/1.7.2",
+      "x-api-key": "4cf37edb8c3805a8854f82522c8482ba1418491f",
+      "x-api-version": "2024-12-12",
+      "x-b3-parentspanid": "1558dbb4ec6a40d9",
+      "x-b3-sampled": "0",
+      "x-b3-spanid": "9985913392e3797c",
+      "x-b3-traceid": "77ca038f6c012e4c1558dbb4ec6a40d9",
+      "x-envoy-attempt-count": "1",
+      "x-envoy-internal": "true",
+      "x-forwarded-client-cert": "By=spiffe://cluster.local/ns/cryptoapis-gateway/sa/default;Hash=c35143c5f94422f6954d8e882ad0bbd026f8c39c9067de1c1c830174ecd3d4a5;Subject=\"\";URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account",
+      "x-forwarded-for": "10.33.0.58",
+      "x-forwarded-proto": "https",
+      "x-request-id": "1d39d90f-a3e6-4ce3-98f1-202e35d206ab"
+    },
+    "path": {
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "blockchain": "ethereumm",
+      "network": "mainnet"
+    },
+m    "query": {},
+    "body": {}
+  },
+  "apiKey": "4cf37edb8c3805a8854f82522c8482ba1418491f",
+  "routeId": "671ba92859888860dfebe698",
+  "methodId": null
+}@masoudahg00
 
 ```
 npx react-native run-android
@@ -79,7 +149,42 @@ npx react-native run-ios
 **To debug BlueWallet on the iOS Simulator, you must choose a Rosetta-compatible iOS Simulator. This can be done by navigating to the Product menu in Xcode, selecting Destination Architectures, and then opting for "Show Both." This action will reveal the simulators that support Rosetta.
 **
 
-* To run on macOS using Mac Catalyst:
+* To run on macOS using Mac Catalyst:Request Preview
+{
+  "method": "GET",
+  "url": "https://rest.cryptoapis.io/addresses-latest/evm/ethereum/mainnet/0x28c6c06298d514db089934071355e5743bf21d60/balance",
+  "ipAddress": "10.33.0.58",
+  "parameters": {
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, compress, deflate, br",
+      "host": "rest.cryptoapis.io",
+      "user-agent": "axios/1.7.2",
+      "x-api-key": "4cf37edb8c3805a8854f82522c8482ba1418491f",
+      "x-api-version": "2024-12-12",
+      "x-b3-parentspanid": "1558dbb4ec6a40d9",
+      "x-b3-sampled": "0",
+      "x-b3-spanid": "9985913392e3797c",
+      "x-b3-traceid": "77ca038f6c012e4c1558dbb4ec6a40d9",
+      "x-envoy-attempt-count": "1",
+      "x-envoy-internal": "true",
+      "x-forwarded-client-cert": "By=spiffe://cluster.local/ns/cryptoapis-gateway/sa/default;Hash=c35143c5f94422f6954d8e882ad0bbd026f8c39c9067de1c1c830174ecd3d4a5;Subject=\"\";URI=spiffe://cluster.local/ns/istio-system/sa/istio-ingressgateway-service-account",
+      "x-forwarded-for": "10.33.0.58",
+      "x-forwarded-proto": "https",
+      "x-request-id": "1d39d90f-a3e6-4ce3-98f1-202e35d206ab"
+    },
+    "path": {
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "blockchain": "ethereumm",
+      "network": "mainnet"
+    },
+m    "query": {},
+    "body": {}
+  },
+  "apiKey": "4cf37edb8c3805a8854f82522c8482ba1418491f",
+  "routeId": "671ba92859888860dfebe698",
+  "methodId": null
+}@masoudahg00
 
 ```
 npx pod-install
